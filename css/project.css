@@ -108,35 +108,36 @@
  {
     border: none;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 30vh;
+    min-height: 50vh;
     background-size: cover;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    gap: 10rem;
+   
  }
- .scl-container .scl-con
+ .scl-container .scl-con1
  {
     display: flex;
-    flex-direction: column;
+
  }
- .scl-container .scl-con p
+ .scl-container p
  {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: white;
    
 
  }
- .scl-container .scl-con img
+ .scl-container .scl-con1 .scl-con img
  {
-    max-width: 300px;
+    max-width: 400px;
     float: left;
     box-shadow: 0 0 1rem rgb(48, 71, 73), inset 0 0 1rem rgb(48, 71, 73), 0 0 2rem rgb(48, 71, 73);
     margin-right: 40px;
     border-radius: .5rem;
  }
- .scl-container .scl-con span{
+ .scl-container .scl-con2 span{
     color: #0ef;
     font-size: 1.5rem;
     font-family: 'Times New Roman', Times, serif;
@@ -151,18 +152,19 @@
 }
 button
 {
-    background: transparent;
+    background: #0ef;
     color: #0ef;
     margin-left: 2rem;
+    text-decoration: none;
 }
 button:hover
 {
-    background: #0ef;
-    color: #262525;
+    background: #262525;
+    color:  #0ef;
 }
 .icons .fa-brands:hover{
     cursor: pointer;
-    background: linear-gradient(white, #3877FF);
+    background: linear-gradient(white, blue);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

@@ -90,6 +90,9 @@
     margin: 1.1rem 0 3rem 0;
     line-height: 1.8rem;
 }
+.content .details span{
+    color: #0ef;
+}
 .btn-container button{
     border: .1rem solid #0ef;
     font-size: 1.1rem;
